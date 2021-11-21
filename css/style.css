@@ -117,9 +117,8 @@ li {
 
 }
 .info {
-	padding: 126px 0 0 0;
+	padding: 126px 0 139px 0;
 	background-color: #ffedf3;
-	min-height: 100vh;   
 }
 
 .info__body {
