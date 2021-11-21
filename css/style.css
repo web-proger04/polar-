@@ -1,0 +1,212 @@
+* {
+	margin: 0;
+	padding: 0;
+	bottom: 0;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+}
+
+li {
+	list-style: none;
+}
+
+.container {
+	max-width: 1125px;
+	margin: 0 auto;
+}
+
+.header {
+	width: 100%;
+	position: absolute;
+	top: 10px;
+	max-height: 79px;
+}
+.header__body {
+	display: flex;
+	align-items: center;
+	height: 79px;
+}
+
+.header__logo {
+}
+
+.logo {
+}
+
+.header__logo-image {
+	margin-right: 266px;
+}
+
+.logo-image {
+}
+
+.header__menu {
+
+}
+
+.menu {
+
+}
+
+.header__menu-list {
+	display: flex;
+	margin: 0 -20px;
+}
+
+.menu-list {
+}
+
+.header__menu-list-item {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 16px;
+	color: #150101;
+	opacity: 0.6;
+	padding: 0 20px;	
+}
+
+.header__menu-list-item a {
+	color: #150101;
+}
+
+.menu-list-item_action {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	font-size: 15px;
+	line-height: 18px;
+	color: #D23166;
+	opacity: 1;
+}
+
+.menu-list-item_action a {
+	color: #D23166;
+}
+
+.header__button {
+	margin-left: auto;
+}
+
+.button {
+	display: inline-block;
+	font-family: 'Hind Madurai', sans-serif;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 22px;
+	color: #FAFAFA;
+	background: #D23166;
+	border-radius: 5px;
+	text-align: center;
+	padding: 14px 0;
+	width: 165px;
+	height: 49px;
+	transition-duration: 800ms;
+}
+
+.button:hover {
+	box-shadow: 0px 0px 15px rgb(210 49 102);
+	transition-duration: 300ms;
+}
+
+.main {
+
+}
+.info {
+	padding: 126px 0 0 0;
+	background-color: #ffedf3;
+	min-height: 100vh;   
+}
+
+.info__body {
+	display: flex;
+	align-items: center;
+}
+.info__offer {
+	flex: 0 1 665px;
+}
+.info__offer-small {
+	margin-bottom: 6px;
+}
+.small {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 16px;
+	letter-spacing: 0.1em;
+	color: #0F0101;
+}
+.info__offer-title {
+	font-family: 'Fredoka One', sans-serif;
+	font-weight: 400;
+	font-size: 57.33px;
+	line-height: 120.5%;
+	color: #0F0101;
+	opacity: 0.9;
+	margin-bottom: 35px;
+	width: 665px;
+}
+
+.info__offer-title span {
+	color:#D23166;
+}
+.info__offer-text {
+	font-family: 'Hind Madurai', sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 27px;
+	color: #0F0101;
+	opacity: 0.6;
+	margin-bottom: 50px;
+	max-width: 523px;
+}
+
+.info__offer-button {
+}
+
+.info__decoration {
+	position: relative;
+	z-index: 9;
+}
+
+.info__decoration:before {
+	content: '';
+    background-image: url(../img/milk.png);
+    width: 685px;
+    height: 530px;
+    position: absolute;
+    right: 62px;
+    bottom: -53px; 
+    z-index: 10;
+}
+
+.info__decoration:after {
+	content: '';
+    background-image: url(../img/ellipse.png);
+    width: 365px;
+    height: 353px;
+    position: absolute;
+    left: 20%;
+    top: 47%;
+    z-index: -1;
+}
+
+.blur:before {
+	content: '';
+    background-image: url('../img/blur.png');
+    width: 237px;
+    height: 79px;
+    position: absolute;
+    right: 37%;
+    bottom: -116px;
+    z-index: 9;
+}
+
+
+
+
+
+
+
